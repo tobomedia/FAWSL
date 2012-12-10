@@ -314,6 +314,43 @@ MOBILE:  Main
     padding: 0px 5% 10px;
 }
 
+.slider {
+    width: 910px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../img/button-sprite.jpg) no-repeat 70px -211px;
+    height: 396px;
+}
+
+.slider li {
+    padding: 0 0 22px 0;
+    margin: 22px 0 0 75px;
+    list-style: none;
+    position: relative;
+    top: 0px;
+}
+
+.slider li p {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.slider li p strong {
+    font-size: 18px;
+}
+
+.coloured-heading {
+    width: 385px;
+    height: 120px;
+    margin: 0 auto;
+    background: url(../img/button-sprite.jpg) -210px 0px no-repeat;
+    padding: 40px 0 0 40px;
+    color: white;
+}
+
 .footer-container footer {
     padding: 20px 0;
 }
@@ -358,22 +395,22 @@ MOBILE:  Main
     background: none;
 }
 
-.tabular-data tr:nth-child(odd):before {
+.tabular-data tr:nth-child(odd)::before {
     content: "";
     position: absolute;
-    width: 10px;
+    width: 22px;
     height: 120px;
     overflow: hidden;
     background: url(../img/button-sprite.jpg) 0px -80px no-repeat;
 }
 
-.tabular-data tr:nth-child(odd):after {
+.tabular-data tr:nth-child(odd)::after {
     content: "";
     position: absolute;
-    width: 15px;
+    width: 25px;
     height: 120px;
     overflow: hidden;
-    background: url(../img/button-sprite.jpg) -170px -85px no-repeat;
+    background: url(../img/button-sprite.jpg) -156px -85px no-repeat;
 }
 
 /* ===============
