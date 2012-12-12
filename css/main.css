@@ -344,8 +344,8 @@ MOBILE:  Main
 
 .coloured-heading {
     width: 385px;
-    height: 120px;
-    margin: 0 auto;
+    height: 100px;
+    margin: 0;
     background: url(../img/button-sprite.jpg) -210px 0px no-repeat;
     padding: 40px 0 0 40px;
     color: white;
